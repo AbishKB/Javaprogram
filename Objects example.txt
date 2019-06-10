@@ -1,0 +1,18 @@
+class Movie{
+String title;
+int rating;
+void playIt(){
+System.out.println("Playing the Movie"+title+"Rating"+rating+"%");
+}
+}
+class MovieTest{
+public static void main(String agrs[]){
+Movie one=new Movie();
+one.title="Sarkar";
+one.rating=90;
+one.playIt();
+Movie two=new Movie();
+two.title="Vivegam";
+two.rating=90;
+two.playIt();
+}}

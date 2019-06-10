@@ -1,0 +1,19 @@
+class TestArrays{
+public static void main(String args[]){
+int[] index=new int[4];
+index[0]=1;
+index[1]=2;
+index[2]=3;
+index[3]=4;
+String[] islands=new String[4];
+islands[0]="HI";
+islands[1]="I";
+islands[2]="am";
+islands[3]="Abish";
+for(int i=0;i<index.length;i++)
+{
+System.out.print("island=");
+System.out.println(islands[i]);
+}
+}
+}
